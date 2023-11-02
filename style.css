@@ -1,10 +1,8 @@
 :root {
   --bg-body: #222831;
-  --bg-buttons: #eeeeee;
-  --bg-buttons-hover: #ffffff;
-  --bg-special-button: #00adb5;
-  --bg-special-button-hover: #00c0ca;
-  --text: black;
+  --bg-button: #00adb5;
+  --bg-button-hover: #00c0ca;
+  --text: white;
   --radius: 0.25rem;
 }
 
@@ -19,6 +17,7 @@
   font-weight: 700;
   font-size: x-large;
   user-select: none;
+  border: none;
 }
 
 body {
@@ -29,4 +28,63 @@ body {
   justify-content: center;
   text-align: center;
   background: var(--bg-body);
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: var(--radius);
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
+  margin: 0 0 5px;
+  color: black;
+}
+
+button {
+  width: 100%;
+  background: var(--bg-button);
+  padding: 10px 15px;
+  border-radius: var(--radius);
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
+  margin: 0 0 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--bg-button-hover);
+}
+
+strong {
+  color: var(--bg-button);
+}
+
+form {
+  margin: auto;
+  width: fit-content;
+}
+
+strong,
+h1,
+h2 {
+  font-size: x-large;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
