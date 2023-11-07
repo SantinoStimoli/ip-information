@@ -4,7 +4,7 @@ La **IP Geolocalización App** es una aplicación web simple que te permite obte
 
 ## Uso
 
-1. Abre la aplicación en tu navegador web.
+1. Abre la aplicación en tu navegador web. [Haz click aquí!](https://santinostimoli.github.io/ip-information/)
 
 2. Verás un formulario que te permite ingresar la dirección IP que deseas consultar.
 
